@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vlad/CLionProjects/Snake/main.cpp
+ncurses.h
+-
+queue
+-
+
+/home/vlad/CLionProjects/Snake/shit.cpp
+iostream
+-
+stdio.h
+-
+termios.h
+-
+unistd.h
+-
+
